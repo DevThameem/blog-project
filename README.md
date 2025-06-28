@@ -29,11 +29,12 @@ cd your-blog-repo
 ```
 
 2. Create a virtual environment and activate it:
-python -m venv venv
+```python -m venv venv
 # On Windows
 venv\Scripts\activate
 # On macOS/Linux
 source venv/bin/activate
+```
 
 3. Install dependencies:
 ```pip install -r requirements.txt```
